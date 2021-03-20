@@ -14,7 +14,7 @@ public class Produto {
 	
 	char tamanho = 'M'; // char -> aspas simples
 	
-	//Tipos por referência -> utiliza uma classe como atributo
+	//Tipos por referÃªncia -> utiliza uma classe como atributo
 	String nome = "Telefone"; // String -> aspas duplas
 	
 }

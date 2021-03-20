@@ -2,9 +2,9 @@ package br.com.fiap.tds.view;
 
 public class Programa {
 
-	//MÈtodo main -> inicio da execuÁ„o do programa
+	//M√©todo main -> inicio da execu√ß√£o do programa
 	public static void main(String [] args) {
-		System.out.print("Ol· Mundo!");
+		System.out.print("Ol√° Mundo!");
 	}
 	
 }
