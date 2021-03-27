@@ -25,7 +25,7 @@ public class TesteEntradaProduto {
 		System.out.print("Digite o preço: ");
 		double valor = leitor.nextDouble();
 		
-		System.out.print("Digite a quantidade");
+		System.out.print("Digite a quantidade: ");
 		int qtd = leitor.nextInt();
 		
 		System.out.print("Está disponível? (true/false)");
@@ -39,10 +39,12 @@ public class TesteEntradaProduto {
 		System.out.println(dados);
 		
 		//Pedir a % de desconto
-		
+		System.out.print("Digite o desconto em %: ");
+		double desconto = leitor.nextDouble();
 		
 		//Calcular e exibir o preço com desconto
-		
+		double valorDescontado = produto.calcularDesconto(desconto);
+		System.out.println("O valor do produto é: " + valorDescontado);
 		
 		leitor.close();
 	}
