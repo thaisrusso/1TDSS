@@ -9,14 +9,15 @@ public class Filme {
 	
 	private String sinopse;
 	
-	//Construtor -> não tem retorno (nem void) e possui o mesmo nome da classe
-	public Filme(String titulo) {
-		this.titulo = titulo;
-	}
 	
 	public Filme(String titulo, int duracao) {
 		this(titulo);
 		this.duracao = duracao;
+	}
+	
+	//Construtor -> não tem retorno (nem void) e possui o mesmo nome da classe
+	public Filme(String titulo) {
+		this.titulo = titulo;
 	}
 	
 	public Filme(String titulo, int duracao, String sinopse) {
